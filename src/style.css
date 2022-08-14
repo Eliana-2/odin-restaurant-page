@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-image: url('./waves.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color:whitesmoke;
+  color:rgb(17, 111, 170);
+  gap: 128px;
+  padding: 24px 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.restaurant-header {
+  margin-left: 64px;
+  font-size: 2.5rem;
+}
+
+.nav-bar {
+  margin-left: auto;
+  margin-right: 64px;
+}
+
+.nav-tabs {
+  display: flex;
+  gap: 32px;
+  font-size: 1.5rem;
+}
+
+.content {
+  margin: 96px 128px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 1000px;
+  border-radius: 8px;
+  padding: 32px;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 48px;
+}
+
+.image-para-container {
+  padding: 48px 0px;
+  display: flex;
+  gap: 32px;
+  border-top: 2px solid rgb(17, 111, 170);
+}
+
+.image {
+  width: 47.8%;
+  border-radius: 2px;
+}
+
+.paras {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.para {
+  align-self: center;
+  text-align: center;
+}
