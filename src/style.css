@@ -81,3 +81,35 @@ h2 {
   align-self: center;
   text-align: center;
 }
+
+.menu-section {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  border-top: 2px solid rgb(17, 111, 170);
+  padding: 32px 0px;
+}
+
+.menu-section-header {
+  text-align: center;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.menu-item {
+  display: grid;
+  grid-template-columns: 1fr  2fr 2fr 1fr;
+}
+
+.item-name {
+  grid-column: 2 / 3;
+}
+
+.item-price {
+  grid-column: 3 / 4;
+  margin-left: auto;
+}
